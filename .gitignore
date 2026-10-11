@@ -1,0 +1,22 @@
+# Python virtual env
+venv/
+.venv/
+
+# Chroma vector DB (can be huge)
+chroma_db/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data files (optional — remove if you want to share sample PDFs)
+data/*.pdf
+data/*.docx
+data/*.pptx
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
